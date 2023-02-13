@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  height: 50px;
+  background-color: rgba(102, 16, 83, 0.698);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .logo {
+    font-size: 20px;
+  }
+  .list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  .listItem {
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.home {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+  box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .loginButton {
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+
+    .icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+  }
+  .google {
+    background-color: #df4930;
+  }
+  .facebook {
+    background-color: #507cc0;
+  }
+  .github {
+    background-color: black;
+  }
+}
